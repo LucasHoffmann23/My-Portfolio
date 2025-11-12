@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Lucas Hoffmann</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #000;
+      color: #fff;
+      font-family: 'Space Mono', monospace;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px 0;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background-color: #000;
+    }
+    nav a {
+      margin: 0 20px;
+      text-decoration: none;
+      color: #888;
+      font-size: 1rem;
+      font-weight: 700;
+      transition: color 0.2s ease;
+    }
+    nav a:hover {
+      color: #fff;
+    }
+    nav a.active {
+      color: #fff;
+      text-decoration: underline;
+    }
+    .container {
+      max-width: 960px;
+      margin: 80px auto;
+      padding: 0 20px;
+    }
+    h1 {
+      margin-bottom: 20px;
+      font-size: 2.2rem;
+      font-weight: 700;
+    }
+    p {
+      line-height: 1.6;
+      margin-bottom: 20px;
+      font-size: 1rem;
+    }
+    .contact-info a {
+      color: #00bcd4;
+      text-decoration: none;
+    }
+    .contact-info a:hover {
+      text-decoration: underline;
+    }
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 1.8rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="projects.html">Projects</a>
+    <a href="resume.html">Resume</a>
+    <a href="contact.html" class="active">Contact</a>
+    <a href="about.html">About</a>
+  </nav>
+  <div class="container">
+    <h1>Contact Me</h1>
+    <p>If you'd like to get in touch, you can reach me via email, phone, or connect with me on LinkedIn.</p>
+    <div class="contact-info">
+      <p>Email: <a href="mailto:lucashoffmann2345@gmail.com">lucashoffmann2345@gmail.com</a></p>
+      <p>Phone: (678) 773-3506</p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/lucas-hoffmann23/" target="_blank">linkedin.com/in/lucas-hoffmann23</a></p>
+    </div>
+  </div>
+</body>
+</html>
